@@ -1,0 +1,22 @@
+.advantages {
+    height: 1340px;
+    padding: 80px 0;
+    &__content {
+        margin-top: 45px;
+        display: grid;
+        grid-template-columns: repeat(2, 570px);
+        grid-template-rows: repeat(3, 355px);
+        position: absolute;
+    }
+    &__descr {
+        position: relative;
+        color: #ffffff;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+        top: -50%;
+        transform: translateY(-50%);
+        padding: 40px 100px 40px;
+    }
+}

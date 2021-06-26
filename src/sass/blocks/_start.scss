@@ -1,0 +1,13 @@
+.start {
+    margin-top: 80px;
+    min-width: 700px;
+    text-align: center;
+    &__text {
+        color: #393939;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: center;
+        margin-top: 75px;
+    }
+}

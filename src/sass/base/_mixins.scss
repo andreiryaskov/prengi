@@ -1,0 +1,58 @@
+@mixin question {
+    &:after {
+        content: url(../img/with_prengi/symbol_question.png);
+        position: absolute;
+        top: -6px;
+        right: -2px;
+    }
+}
+
+@mixin check {
+    &:after {
+        content: url(../img/with_prengi/symbol_check.png);
+        position: absolute;
+        top: -6px;
+        right: -2px;
+    }
+}
+
+@mixin divider {
+    &:before {
+        content: '';
+        position: absolute;
+        top: -12px;
+        right: -30px;
+        height: 49px;
+        width: 1px;
+        background-color: #ececec;
+        opacity: 0.4;
+    }
+}
+
+@mixin blue_after {
+    &:after {
+        content: '';
+        width: 167px;
+        height: 167px;
+        background-color: #00c2f0;
+        opacity: 0.3;
+        position: absolute;
+        top: -30px;
+        right: -35px;
+        z-index: -10;
+    }
+}
+
+@mixin blue_before {
+    &:after {
+        content: '';
+        width: 167px;
+        height: 167px;
+        background-color: #00c2f0;
+        opacity: 0.3;
+        position: absolute;
+        top: -30px;
+        left: -35px;
+        z-index: -10;
+    }
+}

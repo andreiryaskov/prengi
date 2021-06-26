@@ -1,0 +1,45 @@
+.variant {
+    min-width: 960px;
+    &__wrapper {
+        display:flex;
+        justify-content: center;
+        align-items: flex-start;
+        position: relative;
+    }
+    &__text {
+        width: 485px;
+        height: 90px;
+        position: absolute;
+        top: 270px;
+        text-align: right;
+        z-index: 10;
+        &_cloud {
+            text-align: right;
+            right: calc(50% + 85px);
+            @include blue_after;
+        }
+        &_server {
+            text-align: left;
+            left: calc(50% + 85px);
+            @include blue_before;
+        }
+    }
+    &__descr {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+        opacity: 0.6;
+        margin-top: 20px;
+        
+    }
+    &__subtitle {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 400;
+        text-transform: uppercase;
+        &_server {
+            text-align: left;
+        }
+    }
+}

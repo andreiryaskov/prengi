@@ -1,0 +1,54 @@
+.title {
+    color: #ffffff;
+    &_header {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 13px;
+        color: #242424;
+    }
+    &__promo {
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: left;
+        margin: 0;
+    }
+    &__question {
+        margin-top: 33px;
+        color: #393939;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 30.04px;
+        text-transform: uppercase;
+    }
+    &__decisions {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35.99px;
+        text-align: center;
+    }
+    &__advantages {
+        color: #393939;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35.99px;
+        text-align: center;
+    }
+    &__variant {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+        position: absolute;
+        z-index: 10;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__footer {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        text-align: left;
+    }
+}
